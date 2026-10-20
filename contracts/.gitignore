@@ -1,0 +1,11 @@
+# Environment & Private Keys
+.env
+.env.*
+*.env
+*.key
+*.pem
+
+# Foundry Build & Cache Artifacts
+out/
+cache/
+broadcast/

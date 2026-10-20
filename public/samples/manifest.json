@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-10-20T13:14:11.314Z",
+  "samples": [
+    {
+      "fileName": "LAG-IKJ-0421-CertificateOfOccupancy.pdf",
+      "docHash": "0x5d7ba215d6bd8f73a564317e32cc870d96efa235f8dc9759657f64f1f8fd9be5",
+      "outPath": "/Users/mac/Desktop/Dev/land-verify/public/samples/LAG-IKJ-0421-CertificateOfOccupancy.pdf"
+    },
+    {
+      "fileName": "ABJ-MAI-1188-RightOfOccupancy.pdf",
+      "docHash": "0x00c2af95c18a8e11cddcf3a3af19b1688c1408238579c72a241bb452c2861ea6",
+      "outPath": "/Users/mac/Desktop/Dev/land-verify/public/samples/ABJ-MAI-1188-RightOfOccupancy.pdf"
+    },
+    {
+      "fileName": "KAN-NAS-0089-DeedOfAssignment.pdf",
+      "docHash": "0xd767a0ec07b9052af59233f87f43a63b24e23818d3271aa6a99ead21d65f5f6e",
+      "outPath": "/Users/mac/Desktop/Dev/land-verify/public/samples/KAN-NAS-0089-DeedOfAssignment.pdf"
+    }
+  ]
+}
