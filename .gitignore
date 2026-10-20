@@ -26,6 +26,7 @@ node_modules/
 .next/
 .DS_Store
 *.log
+*.tsbuildinfo
 
 # Foundry Artifacts & Broadcast Logs
 contracts/out/
