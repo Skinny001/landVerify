@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   title: 'LandVerify — Check before you buy',
   description: 'A public, tamper-evident layer for verifying Nigerian land documents before you buy.',
   generator: 'v0.app',
+  icons: {
+    icon: '/logo.png',
+    apple: '/logo.png',
+  },
 }
 export const viewport: Viewport = { colorScheme: 'light', themeColor: '#f3f2ec' }
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) { return <html lang="en"><body>{children}{process.env.NODE_ENV === 'production' && <Analytics />}</body></html> }

@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/logo.png" alt="LandVerify Logo" width="120" style="border-radius: 20px;" />
+</p>
+
 # LandVerify
 
 **Tagline:** Check a land document before you buy. Register a C of O hash on-chain, see if a plot is registered or disputed, and fight double-selling and land grabbing in emerging markets.

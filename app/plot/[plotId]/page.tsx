@@ -115,10 +115,20 @@ export default function PlotDetailPage({
     <div style={{ minHeight: '100vh', background: 'var(--cream)', color: 'var(--ink)' }}>
       {/* Navigation */}
       <header className="nav">
-        <Link href="/" className="brand">
-          <span className="brand-mark">
-            <ShieldCheck size={18} color="#11221d" />
-          </span>
+        <Link href="/" className="brand" style={{ display: 'inline-flex', alignItems: 'center' }}>
+          <img
+            src="/logo.png"
+            alt="LandVerify Logo"
+            style={{
+              width: 34,
+              height: 34,
+              borderRadius: 6,
+              marginRight: 10,
+              verticalAlign: 'middle',
+              objectFit: 'cover',
+              boxShadow: '0 2px 8px rgba(25,111,74,0.2)',
+            }}
+          />
           <span>LAND</span>
           <span>VERIFY</span>
         </Link>

@@ -504,10 +504,20 @@ export default function Page() {
 
       {/* Navigation */}
       <nav className="nav">
-        <button type="button" className="brand" onClick={goHome}>
-          <span className="brand-mark">
-            <ShieldCheck size={18} />
-          </span>
+        <button type="button" className="brand" onClick={goHome} style={{ display: 'inline-flex', alignItems: 'center' }}>
+          <img
+            src="/logo.png"
+            alt="LandVerify Logo"
+            style={{
+              width: 34,
+              height: 34,
+              borderRadius: 6,
+              marginRight: 10,
+              verticalAlign: 'middle',
+              objectFit: 'cover',
+              boxShadow: '0 2px 8px rgba(25,111,74,0.2)',
+            }}
+          />
           LAND<span>VERIFY</span>
         </button>
 
